@@ -2,8 +2,6 @@
 print("Welcome to Python Pizza Deliveries!\n")
 size = input("What size pizza do you want? S, M, or L \n").upper()
 krabby_patties = input("How many would you want?\n")
-add_pepperoni = input("Do you want pepperoni? Y or N \n").upper()
-extra_cheese = input("Do you want extra cheese? Y or N \n").upper()
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
@@ -14,6 +12,7 @@ alt_cheese=(f"Might you be interested in an alternative product instead the chee
 size = str(size)
 if size == "S":
     mr_krabbs += 15
+    add_pepperoni = input("Do you want pepperoni? Y or N \n").upper()
     if add_pepperoni == "Y":
         mr_krabbs += 2
     if add_pepperoni == "N":
@@ -23,7 +22,7 @@ if size == "S":
         else:
           print:(f"Just why...?")
 
-
+    extra_cheese = input("Do you want extra cheese? Y or N \n").upper()
     if extra_cheese == "Y":
         mr_krabbs += 1
     if extra_cheese == "N":
@@ -41,6 +40,7 @@ if size == "S":
 
 if size == "M":
     mr_krabbs += 20
+    add_pepperoni = input("Do you want pepperoni? Y or N \n").upper()
     if add_pepperoni == "Y":
         mr_krabbs += 3
     if add_pepperoni == "N":
@@ -50,7 +50,7 @@ if size == "M":
         else:
           print:(f"Just why...?")
 
-
+    extra_cheese = input("Do you want extra cheese? Y or N \n").upper()
     if extra_cheese == "Y":
         mr_krabbs += 1
     if extra_cheese == "N":
@@ -68,6 +68,7 @@ if size == "M":
 
 if size == "L":
     mr_krabbs += 25
+    add_pepperoni = input("Do you want pepperoni? Y or N \n").upper()
     if add_pepperoni == "Y":
         mr_krabbs += 3
     if add_pepperoni == "N":
@@ -77,7 +78,7 @@ if size == "L":
         else:
           print:(f"Just why...?")
 
-
+    extra_cheese = input("Do you want extra cheese? Y or N \n").upper()
     if extra_cheese == "Y":
         mr_krabbs += 1
     if extra_cheese == "N":
